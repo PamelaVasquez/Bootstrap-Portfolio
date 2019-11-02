@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-image: url(../images/email-pattern.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rosybrown;
+    font-weight: bold;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(221, 221, 221, 0.377);
+    color: brown;
+}
+
+/* a.active {
+    background-color: #ccc;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+} */
+.nav-item-left {
+    float: left;
+}
+
+.nav-tabs .nav-link {
+    font-size: 1rem;
+
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: rosybrown;
+    border-color: rosybrown;
+
+}
+
+.nav,
+.nav-tabs {
+    background: #fff;
+}
+
+.name {
+    background: brown;
+    padding: 0px 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    float: right;
+    padding: 20px 0 20px 0;
+    margin-right: 150px;
+}
+
+.about,
+.Portfolio,
+.Contact {
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+}
+
+.col-8 {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid brown;
+
+}
+
+.about-me {
+    padding: 0;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+
+}
+
+#exampleInputMessage1 {
+    height: 10rem;
+
+}
+
+.about-me-text {
+    padding: 10px 0;
+    font-family: arial;
+    font-size: 12px;
+    color: #777;
+    line-height: 2;
+}
+
+.footer {
+    background: #666;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+.form-group {
+    width: 100%;
+}
+
+/* .form {
+    width: 100%;
+    padding: 10px 0 15px 0;
+    font-family: arial;
+    font-size: 12px;
+    color: #777;
+}
+
+.formname,
+.formemail {
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+    width: 99.3%;
+
+}
+
+.formmsg {
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+    width: 99.3%;
+    height: 200px;
+    border: 1px solid #ccc;
+
+} */
+
+.formbtn {
+    background: #4aaaa5;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+
+}
+
+.card {
+    margin: 20px 20px 20px 0;
+    width: 33.33%;
+    position: relative;
+}
+
+.cardname {
+    bottom: 10px;
+    left: 0;
+    padding: 10px 0;
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
